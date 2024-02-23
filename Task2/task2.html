@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Task2 </title>
+    </head>
+    <body>
+        <input type="text" id="input">
+        <button id="display">Display</button>
+        <p id="text"></p>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+    let input = document.getElementById('input');
+    let text = document.getElementById('text');
+    let display = document.getElementById('display');
+    display.addEventListener('click', function() {
+        let inputValue = input.value;
+        text.textContent = inputValue;
+    });
+});
+
+        </script>
+    </body>

@@ -1,0 +1,12 @@
+#area{
+    width: 60px;
+    height: 15px;
+    border: 1px solid black;
+    background: yellow;
+}
+#myButton{
+    background:blue;
+}
+body{
+    background: rgb(25, 230, 25);
+}
